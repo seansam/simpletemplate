@@ -1,0 +1,489 @@
+.container {
+     box-sizing: border-box;
+     margin: 0px auto;
+     max-width: 50rem;
+     padding: 50px 20px;
+     position: relative;
+     width: 100%;
+}
+
+.column, .columns {
+     box-sizing: border-box;
+     float: left;
+     width: 100%;
+}
+
+@media (min-width: 400px) {
+  .container { padding: 40px 15px; width: 85%; }
+}
+
+@media (min-width: 550px) {
+  .container { padding: 0px 15px; width: 80%; }
+}
+	.containertwo {
+     box-sizing: border-box;
+     margin: 0px auto;
+     max-width: 73rem;
+     padding: 50px 20px;
+     position: relative;
+     width: 100%;
+}
+@media (min-width: 400px) {
+  .containertwo { padding: 40px 0px; width: 100%; }
+}
+
+@media (min-width: 550px) {
+  .containertwo { padding: 20px 0px; width: 100%; }
+}
+.containertwo::after, .row::after, .u-cf {
+     clear: both;
+     content: "";
+     display: table;
+}
+html {
+     font-size: 85%;
+}
+
+body {
+     font-family: Georgia,"Lucida Bright","Bitstream Charter","URW Bookman L",serif;
+     font-size: 1.4em;
+     font-weight: 400;
+     line-height: 1.6;
+	 background-color: #ffffff;
+     color: #454545;
+     margin-top: 0px;
+     margin-bottom:60px;
+     overflow-x: hidden;
+     width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-weight: 300;
+     margin-bottom: 2rem;
+     margin-top: 0px;
+	 font-family: "Franklin Gothic Medium","Franklin Gothic","Open Sans","ITC Franklin Gothic","Verdana","Liberation Sans",Calibri,"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+     font-size: 3.6rem;
+     letter-spacing: -0.1rem;
+     line-height: 1.25;
+}
+
+h2 {
+     font-size: 3rem;
+     letter-spacing: -0.1rem;
+     line-height: 1.3;
+}
+
+h3 {
+     font-size: 2.4rem;
+     letter-spacing: -0.08rem;
+     line-height: 1.35;
+}
+
+h4 {
+     font-size: 1.8rem;
+     letter-spacing: -0.05rem;
+     line-height: 1.5;
+}
+
+h5 {
+     font-size: 1.5rem;
+     letter-spacing: 0px;
+     line-height: 1.6;
+}
+
+h2.blogList {
+     font-size: 2.4rem;
+     letter-spacing: -0.08rem;
+     line-height: 1.35;
+     text-align: center;
+}
+
+h1.postinfo {
+     font-size: 3rem;
+     letter-spacing: -0.1rem;
+     line-height: 1.3;
+	 margin-top:8rem;
+}
+
+@media (min-width: 550px) {
+  h1 { font-size: 4.2rem; }
+  h2 { font-size: 3.6rem; }
+  h3 { font-size: 3rem; }
+  h4 { font-size: 2.4rem; }
+  h5 { font-size: 1.5rem; }
+}
+
+p {
+     margin-top: 0px;
+}
+
+.u-full-width {
+     box-sizing: border-box;
+     width: 100%;
+}
+
+.u-max-full-width {
+     box-sizing: border-box;
+     max-width: 100%;
+}
+
+.u-pull-right {
+     float: right;
+}
+
+.u-pull-left {
+     float: left;
+}
+
+.container::after, .row::after, .u-cf {
+     clear: both;
+     content: "";
+     display: table;
+}
+
+html {
+     min-height: 100%;
+     position: relative;
+     width: 100%;
+}
+
+h1, h1.posttitle {
+     font-style: normal;
+     font-weight: 300;
+     text-align: center;
+}
+
+p {
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 400;
+}
+
+blockquote {
+     font-style: italic;
+     font-weight: 400;
+}
+
+pre {
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 400;
+}
+
+code {
+     background: none repeat scroll 0px 0px #f1f1f1;
+     border-radius: 4px;
+     border: 1px solid #e1e1e1;
+     font-size: 90%;
+     margin: 0px 0.2rem;
+     padding: 0.2rem 0.5rem;
+     white-space: nowrap;
+}
+
+pre > code {
+     display: block;
+     padding: 1rem 1.5rem;
+     white-space: pre-wrap;
+     word-wrap: break-word;
+}
+
+#home {
+     display: inline;
+     float: left;
+     font-size: 24px;
+}
+
+.postdate {
+     font-style: italic;
+     margin: 20px 0px 30px;
+}
+
+p.date {
+     color: #898989;
+     text-align: center;
+	 text-transform:uppercase;
+}
+
+hr {
+     border-top: 1px solid #fff;
+     border-width: 1px 0px 0px;
+     margin-bottom: 3.5rem;
+     margin-top: 3rem;
+     max-width: 400px;
+}
+
+li {
+     list-style-type: circle;
+     margin-bottom: 1rem;
+}
+
+blockquote {
+     background: none repeat scroll 0% 0% #f9f9f9;
+     border-left: 10px solid #cccccc;
+     margin: 1.5em 10px;
+     padding: 0.5em 10px;
+     quotes: "“" "”" "‘" "’";
+}
+
+blockquote::before {
+     color: #cccccc;
+     content: open-quote;
+     font-size: 4em;
+     line-height: 0.1em;
+     margin-right: 0.25em;
+     vertical-align: -0.4em;
+}
+
+blockquote p {
+     display: inline;
+}
+
+.navigation {
+     margin: 0px auto;
+     max-width: 1000px;
+     padding: 0px;
+}
+
+.postimage {
+     display: block;
+     height: auto;
+     margin: 18px auto;
+     max-width: 100%;
+}
+
+.btn-default {
+     cursor: pointer;
+     display: inline-block;
+     font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic","Liberation Sans",Calibri,"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+     letter-spacing: 2px;
+     margin-top: 20px;
+     outline: medium none;
+     padding: 0.8em 3em;
+     text-align: center;
+     text-decoration: none;
+}
+
+.btn-default:hover {
+     color: rgba(0, 0, 0, 0.4);
+     text-decoration: none;
+}
+
+.btn-default:active {
+     position: relative;
+     top: 1px;
+}
+
+.white {
+     border: 1px solid rgba(0, 0, 0, 0.25);
+     color: rgba(0, 0, 0, 0.58);
+}
+
+.white:hover {
+     border: 1px solid rgba(0, 0, 0, 0.7);
+     color: rgba(0, 0, 0, 0.8);
+}
+
+.white:active {
+     background: -moz-linear-gradient(center top , #ededed, #ffffff) repeat scroll 0% 0% transparent;
+     color: #999999;
+}
+
+a {
+     color: #66CCFF;
+     text-decoration: none;
+}
+
+a:hover {
+     color: #ff6347;
+     text-decoration: none;
+}
+
+a:active {
+     color: #ff6347;
+     text-decoration: none;
+}
+
+h2.blogList a {
+     color: rgba(0, 0, 0, 0.8);
+}
+
+h2.blogList a:hover, a:focus {
+     color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+     list-style: inside none circle;
+}
+
+ol {
+     list-style: inside none decimal;
+}
+
+ol, ul {
+     margin-top: 0px;
+     padding-left: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+     font-size: 90%;
+     margin: 1.5rem 0px 1.5rem 3rem;
+}
+
+.share-buttons {
+     list-style: outside none none;
+     text-align: center;
+}
+
+.share-buttons li {
+     display: inline;
+     padding: 10px;
+}
+
+#primary_nav {
+     font-size: 0.9em;
+     letter-spacing: 1.5px;
+     margin: 0px auto;
+     text-align: right;
+}
+
+#primary_nav ul {
+     background: none repeat scroll 0px 0px #1c1c1c;
+     list-style: outside none none;
+     margin: 0px;
+     padding: 0px;
+}
+
+#primary_nav li a {
+     color: #ffffff;
+     height: 2em;
+     letter-spacing: 0.1em;
+     line-height: 2em;
+     padding: 0.5em;
+     text-decoration: none;
+	 font-family:"Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic","Liberation Sans",Calibri,"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+li.about {
+     list-style-type: none;
+}
+
+#primary_nav li.about a {
+     line-height: 2.8em;
+}
+
+#primary_nav li:last-child a {
+     border-bottom: medium none;
+}
+
+#primary_nav li a:hover, #primary_nav li a:focus {
+     color: #ababab;
+}
+
+@media only screen and (min-width: 750px) {
+  #primary_nav { letter-spacing: 1.5px; text-align: right; }
+  #primary_nav ul { background: none repeat scroll 0px 0px transparent; display: inline; }
+  #primary_nav li { display: inline-block; padding-bottom: 20px; }
+  #primary_nav li a { border-bottom: medium none; color: #454545; text-transform: uppercase; letter-spacing: 5px; }
+  #banner { padding-top: 80px; }
+}
+
+.footer {
+     bottom: 0px;
+     height: 60px;
+     position: absolute;
+     text-align: center;
+     width: 100%;
+}
+
+.footer p {
+     clear: left;
+     font-size: 16px;
+}
+
+@media (max-width: 750px) {
+  .footer p { clear: left; font-size: 16px; padding-top: 10px; }
+  .navigation { margin: 0px auto; max-width: 740px; padding: 0px; }
+}
+
+#banner {
+     background-color: #ffffff;
+     margin: 0px;
+}
+
+.postentry {
+     margin: 6rem 0px;
+}
+
+input, textarea {  
+  width: 12rem;
+  padding: 1rem;
+  outline: 0;  
+  border: solid 1px #E5E5E5;      
+  background-color: #FFFFFF;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;      
+}
+
+textarea {   
+  width: 14rem; max-width: 14rem; 
+  height: 15rem;
+  color: #D7D7D7;
+} 
+
+@media (min-width: 550px) {
+#wrap {
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.box1 {
+  background-color: #F9F9F9;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+.form {
+  margin: auto;
+}
+
+input, textarea {  
+  width: 15rem;
+  padding: 1rem;
+  outline: 0;  
+  border: solid 1px #E5E5E5;      
+  background-color: #FFFFFF;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;      
+}
+
+textarea {   
+  width: 30rem; max-width: 30rem; 
+  height: 15rem;
+  color: #D7D7D7;
+} 
+
+input:hover, textarea:hover,  
+input:focus, textarea:focus {   
+  border-color: #C9C9C9;   
+}
+
+.text textarea:focus {
+  color: #000;
+}
+  
+.form label {   
+  margin-left: 1rem;     
+}  
+  
+.submit input {  
+  border: 0;  
+  border-radius: 2px;
+}
+
+.submit input:hover {
+  cursor: pointer;
+  background-color: #bcbcbc;
+}
+}
+
